@@ -96,3 +96,27 @@ button:focus {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+
+@media screen and (max-width: 575px) {
+  .sidebar{
+    width: 50%;
+  }
+  .main-slide{
+    width: 50%;
+    left: 50%;
+  }
+  .container .controls button {
+    left: 50%;
+  }
+  .container .controls button:last-child {
+    top: 30%;
+  }
+  .container .controls button:first-child {
+    top: 70%
+  }
+
+  .sidebar h1{
+    font-size: 30px;
+    text-align: center;
+  }
+}

@@ -27,7 +27,6 @@ function changeSlide(direction) {
     }
   }
   const height = container.clientHeight;
-  console.log(height);
   mainSlide.style.transform = `translateY(-${activeSlideIndex * height}px)`;
   sidebar.style.transform = `translateY(${activeSlideIndex * height}px)`;
 }
